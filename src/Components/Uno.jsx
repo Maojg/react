@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
 const Uno = () => {
-    
     const [first, setfirst] = useState(0);
+
   return (
     <div>
         <p>Contador es:{first}</p>
